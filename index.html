@@ -188,15 +188,17 @@
       <p>&copy; 2025 Bear Awnings and Repair. All rights reserved.</p>
     </div>
   </footer>
-  <script>const menuToggle = document.createElement('button');
-    menuToggle.id = 'menuToggle';
-    menuToggle.innerHTML = '&#9776;'; // Hamburger icon
-    document.querySelector('header .container').appendChild(menuToggle);
-    
-    const nav = document.querySelector('header nav');
-    
-    menuToggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
-    });</script>
+ 
 </body>
+
+<script>const menuToggle = document.createElement('button');
+  menuToggle.id = 'menuToggle';
+  menuToggle.innerHTML = '&#9776;'; // Hamburger icon
+  document.querySelector('header .container').appendChild(menuToggle);
+  
+  const nav = document.querySelector('header nav');
+  
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });</script>
 </html>
